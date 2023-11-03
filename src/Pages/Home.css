@@ -3,3 +3,7 @@
     gap:10px;
     flex-wrap: wrap;
 }
+
+.filters-wrapper{
+    display:flex;
+}
