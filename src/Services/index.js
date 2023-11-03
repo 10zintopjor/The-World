@@ -7,3 +7,9 @@ export default function getAllCountries(){
     return axios.get(`${COUNTRY_API_ENDPOINT}/all`)
 
 }
+
+
+export function getCountryDetail(countryCode){
+    return axios.get(`${COUNTRY_API_ENDPOINT}/alpha/${countryCode}`)
+
+}
